@@ -2,16 +2,12 @@ import React from 'react';
 import { StatusBar } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import {
-  Container,
-  Logo,
-  ButtonsContainer,
-  LogInButton,
-  LogInButtonText,
-  SignupButton,
-  SignupButtonText,
-} from './styles';
+import { Container, Logo, ButtonsContainer } from './styles';
 import logo from '../../assets/logo.png';
+import DarkButton from '../../components/DarkButton';
+import { ButtonText } from '../../components/DarkButton/styles';
+import LightButton from '../../components/LightButton';
+import { ButtonTextLight } from '../../components/LightButton/styles';
 
 const Home: React.FC = () => {
   const navigation = useNavigation();
@@ -28,13 +24,13 @@ const Home: React.FC = () => {
       </Container>
 
       <ButtonsContainer>
-        <LogInButton onPress={handleLogin}>
-          <LogInButtonText>Log In</LogInButtonText>
-        </LogInButton>
+        <LightButton onPress={handleLogin}>
+          <ButtonTextLight>Log In</ButtonTextLight>
+        </LightButton>
 
-        <SignupButton>
-          <SignupButtonText>Abrir Conta</SignupButtonText>
-        </SignupButton>
+        <DarkButton>
+          <ButtonText>Abrir Conta</ButtonText>
+        </DarkButton>
       </ButtonsContainer>
     </React.Fragment>
   );

@@ -21,7 +21,7 @@ const App: React.FC = () => {
 
   return (
     <>
-      <StatusBar barStyle="light-content" />
+      {/* <StatusBar barStyle="light-content" /> */}
       <Routes />
     </>
   );
