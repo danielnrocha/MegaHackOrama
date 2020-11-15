@@ -82,7 +82,7 @@ const ChooseProfile: React.FC = () => {
                         textTransform: 'uppercase',
                       }}
                     >
-                      Fundo 1{'\n'}
+                      Órama Ouro FIM{'\n'}
                     </Text>
                     <Text>
                       63.87%(12M){'\n'} Aplicação Mínima {'\n'}R$ 0,00
@@ -100,10 +100,10 @@ const ChooseProfile: React.FC = () => {
                         textTransform: 'uppercase',
                       }}
                     >
-                      Fundo 1{'\n'}
+                      Artesanal FIC FIM CP{'\n'}
                     </Text>
                     <Text>
-                      63.87%(12M){'\n'} Aplicação Mínima {'\n'}R$ 0,00
+                      50.05%(12M){'\n'} Aplicação Mínima {'\n'}R$ 1.000,00
                     </Text>
                   </ProfileButtonText>
                 </ProfileButton>
@@ -118,10 +118,10 @@ const ChooseProfile: React.FC = () => {
                         textTransform: 'uppercase',
                       }}
                     >
-                      Fundo 1{'\n'}
+                      Ouro Preto FIC FIM CP{'\n'}
                     </Text>
                     <Text>
-                      63.87%(12M){'\n'} Aplicação Mínima {'\n'}R$ 0,00
+                      80%(12M){'\n'} Aplicação Mínima {'\n'}R$ 5.000,00
                     </Text>
                   </ProfileButtonText>
                 </ProfileButton>
@@ -136,10 +136,10 @@ const ChooseProfile: React.FC = () => {
                         textTransform: 'uppercase',
                       }}
                     >
-                      Fundo 1{'\n'}
+                      Átrio D30 FIC FIM CP{'\n'}
                     </Text>
                     <Text>
-                      63.87%(12M){'\n'} Aplicação Mínima {'\n'}R$ 0,00
+                      38.05%(12M){'\n'} Aplicação Mínima {'\n'}R$ 10.000,00
                     </Text>
                   </ProfileButtonText>
                 </ProfileButton>
@@ -154,10 +154,10 @@ const ChooseProfile: React.FC = () => {
                         textTransform: 'uppercase',
                       }}
                     >
-                      Fundo 1{'\n'}
+                      V8 Cash FIRF CP{'\n'}
                     </Text>
                     <Text>
-                      63.87%(12M){'\n'} Aplicação Mínima {'\n'}R$ 0,00
+                      63.87%(12M){'\n'} Aplicação Mínima {'\n'}R$ 1.000,00
                     </Text>
                   </ProfileButtonText>
                 </ProfileButton>
@@ -172,10 +172,10 @@ const ChooseProfile: React.FC = () => {
                         textTransform: 'uppercase',
                       }}
                     >
-                      Fundo 1{'\n'}
+                      Integral FIRF CP{'\n'}
                     </Text>
                     <Text>
-                      63.87%(12M){'\n'} Aplicação Mínima {'\n'}R$ 0,00
+                      83.87%(12M){'\n'} Aplicação Mínima {'\n'}R$ 0,00
                     </Text>
                   </ProfileButtonText>
                 </ProfileButton>

@@ -59,7 +59,7 @@ export const Input = styled.TextInput.attrs({
 
 export const ProfileButton = styled(RectButton)`
   width: 45%
-  height: 170px;
+  height: 150px;
   background-color:#c2c2c2
   border-radius:  10px;
 `;

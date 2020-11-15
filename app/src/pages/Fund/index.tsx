@@ -174,7 +174,7 @@ const ChooseProfile: React.FC = () => {
           <View
             style={{
               backgroundColor: '#5ce06e',
-              width: 440,
+              width: 360,
               height: 50,
               justifyContent: 'center',
             }}
