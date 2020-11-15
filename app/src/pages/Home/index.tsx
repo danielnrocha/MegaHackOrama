@@ -3,7 +3,7 @@ import { StatusBar } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
 import { Container, Logo, ButtonsContainer } from './styles';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo3.png';
 import DarkButton from '../../components/DarkButton';
 import { ButtonText } from '../../components/DarkButton/styles';
 import LightButton from '../../components/LightButton';
@@ -13,6 +13,10 @@ const Home: React.FC = () => {
   const navigation = useNavigation();
 
   function handleLogin(): void {
+    navigation.navigate('ChooseProfile');
+  }
+
+  function handleRegister(): void {
     navigation.navigate('Login');
   }
 
@@ -29,7 +33,7 @@ const Home: React.FC = () => {
         </LightButton>
 
         <DarkButton>
-          <ButtonText>Abrir Conta</ButtonText>
+          <ButtonText onPress={handleRegister}>Abrir Conta</ButtonText>
         </DarkButton>
       </ButtonsContainer>
     </React.Fragment>

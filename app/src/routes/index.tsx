@@ -3,6 +3,10 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Home from '../pages/Home';
 import Login from '../pages/Login';
+import ChooseProfile from '../pages/ChooseProfile';
+import WhereToInvest from '../pages/WhereToInvest';
+import HowToInvest from '../pages/HowToInvest';
+import TopFundos from '../pages/TopFundos';
 
 const Routes: React.FC = () => {
   const AppStack = createStackNavigator();
@@ -12,6 +16,10 @@ const Routes: React.FC = () => {
       <AppStack.Navigator headerMode="none">
         <AppStack.Screen name="Home" component={Home} />
         <AppStack.Screen name="Login" component={Login} />
+        <AppStack.Screen name="ChooseProfile" component={ChooseProfile} />
+        <AppStack.Screen name="WhereToInvest" component={WhereToInvest} />
+        <AppStack.Screen name="HowToInvest" component={HowToInvest} />
+        <AppStack.Screen name="TopFundos" component={TopFundos} />
       </AppStack.Navigator>
     </NavigationContainer>
   );
