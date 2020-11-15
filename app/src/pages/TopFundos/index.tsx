@@ -43,7 +43,12 @@ const ChooseProfile: React.FC = () => {
         behavior={Platform.OS === 'ios' ? 'padding' : undefined}
       >
         <Container>
-          <View style={{ marginTop: 20, paddingHorizontal: 15 }}>
+          <View
+            style={{
+              marginTop: 24,
+              paddingHorizontal: 15,
+            }}
+          >
             <TouchableOpacity onPress={handleBack}>
               <ArrowReturn source={arrowLeft} />
             </TouchableOpacity>
@@ -57,105 +62,121 @@ const ChooseProfile: React.FC = () => {
                 mesmo!
               </BodyText>
 
-              <ProfileButton style={{ marginTop: 50 }}>
-                <View
-                  style={{
-                    flexDirection: 'row',
-                  }}
-                >
-                  <ProfileButtonText
-                    style={{
-                      flex: 1,
-                      textAlign: 'left',
-                    }}
-                  >
-                    Órama Ouro FIM
+              <View
+                style={{
+                  flexDirection: 'row',
+                  flexWrap: 'wrap',
+                  justifyContent: 'space-around',
+                }}
+              >
+                <ProfileButton style={{ marginTop: 50 }}>
+                  <ProfileButtonText>
+                    <Text
+                      style={{
+                        color: 'black',
+                        position: 'relative',
+                        lineHeight: 30,
+                        textTransform: 'uppercase',
+                      }}
+                    >
+                      Fundo 1{'\n'}
+                    </Text>
+                    <Text>
+                      63.87%(12M){'\n'} Aplicação Mínima {'\n'}R$ 0,00
+                    </Text>
                   </ProfileButtonText>
-                  <ProfileButtonText style={{ flex: 1, textAlign: 'right' }}>
-                    <Text></Text>
-                  </ProfileButtonText>
-                </View>
-              </ProfileButton>
+                </ProfileButton>
 
-              <ProfileButton style={{ marginTop: 50 }}>
-                <View
-                  style={{
-                    flexDirection: 'row',
-                  }}
-                >
-                  <ProfileButtonText
-                    style={{
-                      flex: 1,
-                      textAlign: 'left',
-                    }}
-                  >
-                    Órama Ouro FIM
+                <ProfileButton style={{ marginTop: 50 }}>
+                  <ProfileButtonText>
+                    <Text
+                      style={{
+                        color: 'black',
+                        position: 'relative',
+                        lineHeight: 30,
+                        textTransform: 'uppercase',
+                      }}
+                    >
+                      Fundo 1{'\n'}
+                    </Text>
+                    <Text>
+                      63.87%(12M){'\n'} Aplicação Mínima {'\n'}R$ 0,00
+                    </Text>
                   </ProfileButtonText>
-                  <ProfileButtonText style={{ flex: 1, textAlign: 'right' }}>
-                    <Text></Text>
-                  </ProfileButtonText>
-                </View>
-              </ProfileButton>
+                </ProfileButton>
 
-              <ProfileButton style={{ marginTop: 50 }}>
-                <View
-                  style={{
-                    flexDirection: 'row',
-                  }}
-                >
-                  <ProfileButtonText
-                    style={{
-                      flex: 1,
-                      textAlign: 'left',
-                    }}
-                  >
-                    Órama Ouro FIM
+                <ProfileButton style={{ marginTop: 50 }}>
+                  <ProfileButtonText>
+                    <Text
+                      style={{
+                        color: 'black',
+                        position: 'relative',
+                        lineHeight: 30,
+                        textTransform: 'uppercase',
+                      }}
+                    >
+                      Fundo 1{'\n'}
+                    </Text>
+                    <Text>
+                      63.87%(12M){'\n'} Aplicação Mínima {'\n'}R$ 0,00
+                    </Text>
                   </ProfileButtonText>
-                  <ProfileButtonText style={{ flex: 1, textAlign: 'right' }}>
-                    <Text></Text>
-                  </ProfileButtonText>
-                </View>
-              </ProfileButton>
+                </ProfileButton>
 
-              <ProfileButton style={{ marginTop: 50 }}>
-                <View
-                  style={{
-                    flexDirection: 'row',
-                  }}
-                >
-                  <ProfileButtonText
-                    style={{
-                      flex: 1,
-                      textAlign: 'left',
-                    }}
-                  >
-                    Órama Ouro FIM
+                <ProfileButton style={{ marginTop: 50 }}>
+                  <ProfileButtonText>
+                    <Text
+                      style={{
+                        color: 'black',
+                        position: 'relative',
+                        lineHeight: 30,
+                        textTransform: 'uppercase',
+                      }}
+                    >
+                      Fundo 1{'\n'}
+                    </Text>
+                    <Text>
+                      63.87%(12M){'\n'} Aplicação Mínima {'\n'}R$ 0,00
+                    </Text>
                   </ProfileButtonText>
-                  <ProfileButtonText style={{ flex: 1, textAlign: 'right' }}>
-                    <Text></Text>
-                  </ProfileButtonText>
-                </View>
-              </ProfileButton>
+                </ProfileButton>
 
-              <ProfileButton style={{ marginTop: 50 }}>
-                <View
-                  style={{
-                    flexDirection: 'row',
-                  }}
-                >
-                  <ProfileButtonText
-                    style={{
-                      flex: 1,
-                      textAlign: 'left',
-                    }}
-                  >
-                    Órama Ouro FIM
+                <ProfileButton style={{ marginTop: 50 }}>
+                  <ProfileButtonText>
+                    <Text
+                      style={{
+                        color: 'black',
+                        position: 'relative',
+                        lineHeight: 30,
+                        textTransform: 'uppercase',
+                      }}
+                    >
+                      Fundo 1{'\n'}
+                    </Text>
+                    <Text>
+                      63.87%(12M){'\n'} Aplicação Mínima {'\n'}R$ 0,00
+                    </Text>
                   </ProfileButtonText>
-                  <ProfileButtonText style={{ flex: 1, textAlign: 'right' }}>
-                    <Text></Text>
+                </ProfileButton>
+
+                <ProfileButton style={{ marginTop: 50 }}>
+                  <ProfileButtonText>
+                    <Text
+                      style={{
+                        color: 'black',
+                        position: 'relative',
+                        lineHeight: 30,
+                        textTransform: 'uppercase',
+                      }}
+                    >
+                      Fundo 1{'\n'}
+                    </Text>
+                    <Text>
+                      63.87%(12M){'\n'} Aplicação Mínima {'\n'}R$ 0,00
+                    </Text>
                   </ProfileButtonText>
-                </View>
-              </ProfileButton>
+                </ProfileButton>
+              </View>
 
               <TouchableOpacity style={{ marginTop: 50, bottom: 30 }}>
                 <Text>Outros tipos de investimento</Text>

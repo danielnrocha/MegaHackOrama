@@ -7,8 +7,8 @@ export const Container = styled.View`
 `;
 
 export const ArrowReturn = styled.Image`
-  margin-top: 25px;
-  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 25px;
   height: 25px;
 `;
@@ -18,8 +18,8 @@ export const MoneyIcon = styled.Image`
   height: 41px;
   width: 41.5px;
   position: relative;
-  top: 8;
-  left: 10;
+  top: 8px;
+  left: 10px;
 `;
 
 export const TitleText = styled.Text`
@@ -32,7 +32,7 @@ export const TitleText = styled.Text`
   padding-horizontal: 20px;
   color: black;
   position: absolute;
-  top: 10;
+  top: 1px;
 `;
 
 export const BodyText = styled.Text`
@@ -43,7 +43,7 @@ export const BodyText = styled.Text`
   padding-horizontal: 20px;
   color: black;
   position: absolute;
-  top: 100;
+  top: 120px;
   margin: auto;
   text-align: center;
 `;
@@ -67,7 +67,7 @@ export const ProfileButton = styled(RectButton)`
   align-items: center;
   margin-top: 15px;
   background-color:#5ce06e
-  border-radius: 10;
+  border-radius: 10px;
 `;
 
 export const ProfileButtonText = styled.Text`
@@ -76,7 +76,7 @@ export const ProfileButtonText = styled.Text`
   font-family: 'Roboto_900Black';
   text-transform: uppercase;
   position: relative;
-  top: -20;
+  top: -20px;
 `;
 
 export const Content = styled.View`

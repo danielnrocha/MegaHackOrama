@@ -1,9 +1,9 @@
 import React from 'react';
-import { StatusBar } from 'react-native';
+import { StatusBar, View } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
 import { Container, Logo, ButtonsContainer } from './styles';
-import logo from '../../assets/logo3.png';
+import logo from '../../assets/logo6.png';
 import DarkButton from '../../components/DarkButton';
 import { ButtonText } from '../../components/DarkButton/styles';
 import LightButton from '../../components/LightButton';
@@ -24,7 +24,9 @@ const Home: React.FC = () => {
     <React.Fragment>
       <StatusBar hidden />
       <Container>
-        <Logo source={logo} />
+        <View>
+          <Logo source={logo} style={{ transform: [{ scale: 0.3 }] }} />
+        </View>
       </Container>
 
       <ButtonsContainer>

@@ -7,8 +7,8 @@ export const Container = styled.View`
 `;
 
 export const ArrowReturn = styled.Image`
-  margin-top: 25px;
-  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 25px;
   height: 25px;
 `;
@@ -17,8 +17,8 @@ export const MoneyIcon = styled.Image`
   height: 41px;
   width: 41.5px;
   position: relative;
-  top: 8;
-  left: 10;
+  top: 8px;
+  left: 10px;
 `;
 
 export const TitleText = styled.Text`
@@ -28,7 +28,7 @@ export const TitleText = styled.Text`
   margin-bottom: 2050px;
   padding-horizontal: 20px;
   color: black;
-  top: 10;
+  top: 10px;
   margin: auto;
 `;
 
@@ -58,24 +58,18 @@ export const Input = styled.TextInput.attrs({
 `;
 
 export const ProfileButton = styled(RectButton)`
-  width: 90%
-  height: 90px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 14px;
-  margin-bottom: 15px;
+  width: 45%
+  height: 170px;
   background-color:#c2c2c2
-  border-radius: 10;
+  border-radius:  10px;
 `;
 
 export const ProfileButtonText = styled.Text`
   color: black;
   font-size: 13px;
   font-family: 'Roboto_900Black';
-  text-transform: uppercase;
-  position: relative;
-  top: -20;
-  font-weight: 100;
+  text-align: center;
+  top: 30;
 `;
 
 export const Content = styled.View`

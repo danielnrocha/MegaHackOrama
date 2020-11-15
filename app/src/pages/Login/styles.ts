@@ -7,8 +7,10 @@ export const Container = styled.View`
 `;
 
 export const ArrowReturn = styled.Image`
-  margin-top: 45px;
-  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 25px;
+  height: 25px;
 `;
 
 export const LoginText = styled.Text`
@@ -51,4 +53,5 @@ export const Content = styled.View`
   flex: 1;
   justify-content: center;
   align-items: center;
+  margin-top: -100px;
 `;

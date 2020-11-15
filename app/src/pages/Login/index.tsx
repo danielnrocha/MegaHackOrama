@@ -16,7 +16,7 @@ import {
   LoginButtonText,
   Content,
 } from './styles';
-import arrowLeft from '../../assets/icons-assets/arrow_left.png';
+import arrowLeft from '../../assets/icons-assets/backarrow.png';
 import Input from '../../components/Input';
 
 const Login: React.FC = () => {
@@ -44,10 +44,19 @@ const Login: React.FC = () => {
           <Content>
             <LoginText>Log In</LoginText>
 
-            <Input name="" placeholder="joao@example.com" />
-            <Input name="" placeholder="********" secureTextEntry={true} />
+            <Input
+              style={{ borderRadius: 10 }}
+              name=""
+              placeholder="joao@examplo.com"
+            />
+            <Input
+              style={{ borderRadius: 10 }}
+              name=""
+              placeholder="********"
+              secureTextEntry={true}
+            />
 
-            <LoginButton>
+            <LoginButton style={{ borderRadius: 10 }}>
               <LoginButtonText>Log In</LoginButtonText>
             </LoginButton>
           </Content>
