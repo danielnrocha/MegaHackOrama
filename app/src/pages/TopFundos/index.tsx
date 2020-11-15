@@ -29,6 +29,9 @@ const ChooseProfile: React.FC = () => {
     navigation.goBack();
   }
 
+  function handleFund(): void {
+    navigation.navigate('Fund');
+  }
   return (
     <React.Fragment>
       <StatusBar
@@ -69,7 +72,7 @@ const ChooseProfile: React.FC = () => {
                   justifyContent: 'space-around',
                 }}
               >
-                <ProfileButton style={{ marginTop: 50 }}>
+                <ProfileButton style={{ marginTop: 50 }} onPress={handleFund}>
                   <ProfileButtonText>
                     <Text
                       style={{
@@ -87,7 +90,7 @@ const ChooseProfile: React.FC = () => {
                   </ProfileButtonText>
                 </ProfileButton>
 
-                <ProfileButton style={{ marginTop: 50 }}>
+                <ProfileButton style={{ marginTop: 50 }} onPress={handleFund}>
                   <ProfileButtonText>
                     <Text
                       style={{
@@ -105,7 +108,7 @@ const ChooseProfile: React.FC = () => {
                   </ProfileButtonText>
                 </ProfileButton>
 
-                <ProfileButton style={{ marginTop: 50 }}>
+                <ProfileButton style={{ marginTop: 50 }} onPress={handleFund}>
                   <ProfileButtonText>
                     <Text
                       style={{
@@ -123,7 +126,7 @@ const ChooseProfile: React.FC = () => {
                   </ProfileButtonText>
                 </ProfileButton>
 
-                <ProfileButton style={{ marginTop: 50 }}>
+                <ProfileButton style={{ marginTop: 50 }} onPress={handleFund}>
                   <ProfileButtonText>
                     <Text
                       style={{
@@ -141,7 +144,7 @@ const ChooseProfile: React.FC = () => {
                   </ProfileButtonText>
                 </ProfileButton>
 
-                <ProfileButton style={{ marginTop: 50 }}>
+                <ProfileButton style={{ marginTop: 50 }} onPress={handleFund}>
                   <ProfileButtonText>
                     <Text
                       style={{
@@ -159,7 +162,7 @@ const ChooseProfile: React.FC = () => {
                   </ProfileButtonText>
                 </ProfileButton>
 
-                <ProfileButton style={{ marginTop: 50 }}>
+                <ProfileButton style={{ marginTop: 50 }} onPress={handleFund}>
                   <ProfileButtonText>
                     <Text
                       style={{

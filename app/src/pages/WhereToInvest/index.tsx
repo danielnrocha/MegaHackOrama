@@ -30,8 +30,8 @@ const ChooseProfile: React.FC = () => {
     navigation.goBack();
   }
 
-  function handleModerateProfile(): void {
-    navigation.navigate('WhereToInvest');
+  function handleFund(): void {
+    navigation.navigate('Fund');
   }
 
   function handleHowToInvest(): void {
@@ -65,12 +65,12 @@ const ChooseProfile: React.FC = () => {
               de investimento.
             </BodyText>
 
-            <ProfileButton>
+            <ProfileButton onPress={handleFund}>
               <MoneyIcon source={money} style={{ alignSelf: 'flex-start' }} />
               <ProfileButtonText>Órama Ouro FIM</ProfileButtonText>
             </ProfileButton>
 
-            <ProfileButton onPress={handleModerateProfile}>
+            <ProfileButton>
               <MoneyIcon source={money} style={{ alignSelf: 'flex-start' }} />
               <ProfileButtonText>Artesanal FIC FIM CP</ProfileButtonText>
             </ProfileButton>

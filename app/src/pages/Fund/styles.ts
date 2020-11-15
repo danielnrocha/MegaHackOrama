@@ -58,18 +58,33 @@ export const Input = styled.TextInput.attrs({
 `;
 
 export const ProfileButton = styled(RectButton)`
-  width: 45%
-  height: 170px;
+  width: 90%
+  height: 50px;
   background-color:#c2c2c2
   border-radius:  10px;
+`;
+
+export const FundButton = styled(RectButton)`
+  width: 150px
+  height: 100px
+  margin: 5px
+  background-color:#c2c2c2
+  border-radius:  10px;
+  justify-content: center
+
 `;
 
 export const ProfileButtonText = styled.Text`
   color: black;
   font-size: 13px;
   font-family: 'Roboto_900Black';
+`;
+
+export const FundText = styled.Text`
+  font-size: 13px;
+  font-family: 'Roboto_900Black';
   text-align: center;
-  top: 30px;
+  color: black;
 `;
 
 export const Content = styled.View`
