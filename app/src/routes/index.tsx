@@ -8,6 +8,7 @@ import WhereToInvest from '../pages/WhereToInvest';
 import HowToInvest from '../pages/HowToInvest';
 import TopFundos from '../pages/TopFundos';
 import Fund from '../pages/Fund';
+import Wallet from '../pages/Wallet';
 
 const Routes: React.FC = () => {
   const AppStack = createStackNavigator();
@@ -22,6 +23,7 @@ const Routes: React.FC = () => {
         <AppStack.Screen name="HowToInvest" component={HowToInvest} />
         <AppStack.Screen name="TopFundos" component={TopFundos} />
         <AppStack.Screen name="Fund" component={Fund} />
+        <AppStack.Screen name="Wallet" component={Wallet} />
       </AppStack.Navigator>
     </NavigationContainer>
   );

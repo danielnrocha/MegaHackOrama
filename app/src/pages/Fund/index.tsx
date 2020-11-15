@@ -15,11 +15,9 @@ import {
   Container,
   ArrowReturn,
   TitleText,
-  BodyText,
   ProfileButton,
   FundButton,
   FundText,
-  ProfileButtonText,
   Content,
 } from './styles';
 import arrowLeft from '../../assets/icons-assets/backarrow.png';

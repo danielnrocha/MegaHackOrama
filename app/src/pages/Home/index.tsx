@@ -17,7 +17,7 @@ const Home: React.FC = () => {
   }
 
   function handleRegister(): void {
-    navigation.navigate('Login');
+    navigation.navigate('Wallet');
   }
 
   return (
