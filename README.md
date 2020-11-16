@@ -15,21 +15,21 @@ Criamos uma solução digital para tonar mais amigável a experiência do client
 ### **Solução**
 
 1. O usuário abre uma conta na Órama, preenche as informações obrigatórias e pode:
-- Responder, via Chat BOT, um questionário rápido e amigável para traçar o seu perfil de investimentos;
-- Optar por pular o questionário (nesse caso, o algoritmo infere o perfil do cliente).
+  - Responder, via Chat BOT, um questionário rápido e amigável para traçar o seu perfil de investimentos;
+  - Optar por pular o questionário (nesse caso, o algoritmo infere o perfil do cliente).
 2. Com base nas preferências respondidas ou inferidas, é criado automaticamente uma carteira de investimentos personalizada e o cliente pode:
-- Ajustar a distribuição de produtos (percentual de renda variável, renda fixa e fundos multimercado);
-- Excluir ou adicionar outros produtos à carteira (nesse caso, são sugeridos os produtos compatíveis com o perfil).
+  - Ajustar a distribuição de produtos (percentual de renda variável, renda fixa e fundos multimercado);
+  - Excluir ou adicionar outros produtos à carteira (nesse caso, são sugeridos os produtos compatíveis com o perfil).
   
 ### **Tecnologias**
 
-**1. Machine Learning**
-- Após testar diversos algoritmos, conseguimos obter **aproximadamente 70% de acurácia preditiva no nosso modelo final**, utilizando o Extreme Gradient Boost (XGBoost). 
-- O algoritmo de Machine Learning construído utiza somente informações demográficas** (idade, sexo, renda, etc.), para estimar o perfil de investimento dos usuários.
+1. Machine Learning
+  - Após testar diversos algoritmos, conseguimos obter **aproximadamente 70% de acurácia preditiva no nosso modelo final**, utilizando o Extreme Gradient Boost (XGBoost). 
+  - O algoritmo de Machine Learning construído utiza somente informações demográficas** (idade, sexo, renda, etc.), para estimar o perfil de investimento dos usuários.
 
-**2. Chat BOT Assistente Virtual (Otto)**
-- A estruturação do questionário como se fosse um chat de conversa faz com que o **processo de responder o teste seja menos monótono e cansativo**.
-- A linguagem sem economês e mais próxima da realidade das pessoas ajuda a fazer um mapeamento mais adequado do perfil dos usuários.
+2. Chat BOT Assistente Virtual (Otto)
+  - A estruturação do questionário como se fosse um chat de conversa faz com que o **processo de responder o teste seja menos monótono e cansativo**.
+  - A linguagem sem economês e mais próxima da realidade das pessoas ajuda a fazer um mapeamento mais adequado do perfil dos usuários.
 
 ### **Execução**
 
