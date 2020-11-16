@@ -29,7 +29,7 @@ Criamos uma solução digital para tonar mais amigável a experiência do client
 1. Machine Learning
 <p align="justify">
 - Após testar diversos algoritmos, conseguimos obter **aproximadamente 70% de acurácia preditiva no nosso modelo final**, utilizando o Extreme Gradient Boost (XGBoost). 
-</p>
+
 <p align="justify">
 - O algoritmo de Machine Learning construído utiza somente informações demográficas** (idade, sexo, renda, etc.), para estimar o perfil de investimento dos usuários.
 </p>
