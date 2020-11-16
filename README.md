@@ -3,7 +3,7 @@
 Desafio: "Desenvolver uma forma de apresentar os serviços e produtos de investimentos de uma forma mais amigável, simplificada e que atenda as melhores práticas de experiência do usuário".
 
 1. Video Pitch: https://youtu.be/4GhNJrRJN80
-2. Video App Mockup: https://www.youtube.com/watch?v=UObJmqCWWDY&feature=youtu.be
+2. Video App Mockup: https://bit.ly/3kBCRBj
 3. Apresentação de Slides: https://bit.ly/35x6yiA
 
 ### **Descrição**
