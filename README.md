@@ -41,7 +41,7 @@ Criamos uma solução digital para tonar mais amigável a experiência do client
 - Nossa solução permite que a Órama ofereça uma melhor personalização para os investimentos de seus clientes, mesmo em contexto de informação assimétrica.
 - Nossa solução é user-friendly (eliminando fricções que afastam as pessoas responder o questionário de suitability).
 - Nossa solução, além de poder ser usada dentro do aplicativo e do site da Órama, também permite criar **propagandas com melhores recomendações**, desde que haja alguma informação sobre o perfil demográfico do público-alvo que frequenta a plataforma na qual seja realizada a publicidade da Órama. 
-- Nossa solução facilita para que pessoas com pouco conhecimento sobre investimento consigam começar a investir, sem nem precisar falar com nenhum ser humano.
+- Nossa solução facilita para que pessoas com pouco conhecimento sobre investimento consigam começar a investir, e de forma completamente self-service e digital.
 
 <img src="https://github.com/danielnrocha/MegaHackOrama/blob/master/logo.png" width="800">
 
