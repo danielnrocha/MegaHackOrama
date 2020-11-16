@@ -28,7 +28,7 @@ Criamos uma solução digital para tonar mais amigável a experiência do client
    - Após testar diversos algoritmos, conseguimos obter **aproximadamente 70% de acurácia preditiva no nosso modelo final**, utilizando o Extreme Gradient Boost (XGBoost). 
    - O algoritmo de Machine Learning construído utiza somente informações demográficas** (idade, sexo, renda, etc.), para estimar o perfil de investimento dos usuários.
 
-2. Chat BOT Assistente Virtual (Otto)
+2. Chat BOT Assistente Virtual
    - A estruturação do questionário como se fosse um chat de conversa faz com que o **processo de responder o questionário seja menos monótono e cansativo**.
    - A linguagem sem economês e mais próxima da realidade das pessoas ajuda a fazer um mapeamento mais adequado do perfil dos usuários.
 
