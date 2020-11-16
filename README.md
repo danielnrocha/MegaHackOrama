@@ -9,15 +9,15 @@ Desafio: "Desenvolver uma forma de apresentar os serviços e produtos de investi
 #### **Descrição**
 
 <p align="justify">
-Criamos uma solução digital para tonar mais amigável a experiência do cliente da Órama. Criamos um chat BOT que auxilia o cliente a responder o questionário de suitability, que também foi adaptado para ficar menos técnico. Além disso, também criamos um algortimo de machine learning que permite inferir o perfil de investimento mesmo nos casos em que o cliente prefere não responder o questionário de suitability.
+Criamos uma solução digital para tonar mais amigável a experiência do cliente da Órama. Criamos um Chat BOT que auxilia o cliente a responder o questionário de suitability, que também foi adaptado para ficar menos técnico. Além disso, também criamos um algortimo de machine learning que permite inferir o perfil de investimento mesmo nos casos em que o cliente prefere não responder o questionário de suitability.
 </p>
 
 #### **Solução**
 
 1. O usuário abre uma conta na Órama, preenche as informações obrigatórias e pode:
-- Responder um questionário rápido e amigável para traçar o seu perfil de investimentos;
+- Responder, via Chat BOT, um questionário rápido e amigável para traçar o seu perfil de investimentos;
 - Optar por pular o questionário (nesse caso, o algoritmo infere o perfil do cliente).
-2. Com base nas preferências respondidas ou inferidas, é criado automaticamente uma carteira de investimentos personalizada e o cliente pode :
+2. Com base nas preferências respondidas ou inferidas, é criado automaticamente uma carteira de investimentos personalizada e o cliente pode:
 - Ajustar a distribuição de produtos (percentual de renda variável, renda fixa e fundos multimercado);
 - Excluir ou adicionar outros produtos à carteira (nesse caso, são sugeridos os produtos compatíveis com o perfil).
   
@@ -41,6 +41,7 @@ Criamos uma solução digital para tonar mais amigável a experiência do client
 - Nossa solução permite que a Órama ofereça uma melhor personalização para os investimentos de seus clientes, mesmo em contexto de informação assimétrica.
 - Nossa solução é user-friendly (eliminando fricções que afastam as pessoas responder o questionário de suitability).
 - Nossa solução, além de poder ser usada dentro do aplicativo e do site da Órama, também permite criar **propagandas com melhores recomendações**, desde que haja alguma informação sobre o perfil demográfico do público-alvo que frequenta a plataforma na qual seja realizada a publicidade da Órama. 
+- Nossa solução facilita para que pessoas com pouco conhecimento sobre investimento consigam começar a investir, sem nem precisar falar com nenhum ser humano.
 
 <img src="https://github.com/danielnrocha/MegaHackOrama/blob/master/logo.png" width="800">
 
