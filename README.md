@@ -17,6 +17,7 @@ Criamos uma solução digital para tonar mais amigável a experiência do client
 1. O usuário abre uma conta na Órama, preenche as informações obrigatórias e pode:
    - Responder, via Chat BOT, um questionário rápido e amigável para traçar o seu perfil de investimentos;
    - Optar por pular o questionário (nesse caso, o algoritmo infere o perfil do cliente).
+
 2. Com base nas preferências respondidas ou inferidas, é criado automaticamente uma carteira de investimentos personalizada e o cliente pode:
    - Ajustar a distribuição de produtos (percentual de renda variável, renda fixa e fundos multimercado);
    - Excluir ou adicionar outros produtos à carteira (nesse caso, são sugeridos os produtos compatíveis com o perfil).
