@@ -45,6 +45,6 @@ Criamos uma solução digital para tonar mais amigável a experiência do client
 - Possibilidade de criar **propagandas com melhores recomendações**, desde que haja alguma informação sobre o perfil demográfico do público-alvo da plataforma na qual seja realizada a publicidade da Órama. 
 
 
-<img src="https://github.com/danielnrocha/MegaHackOrama/blob/master/logo.png" width="800">
+<img src="https://github.com/danielnrocha/MegaHackOrama/blob/master/logo.png" width="900">
 
 ----------
