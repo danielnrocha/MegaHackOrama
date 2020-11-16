@@ -35,22 +35,21 @@ Criamos uma solução digital para tonar mais amigável a experiência do client
 2. Chat BOT Assistente Virtual (Otto)
 <p align="justify">
 - A estruturação do questionário como se fosse um chat de conversa faz com que o **processo de responder o teste seja menos monótono e cansativo**.
-- A linguagem sem economês e mais próxima da realidade das pessoas ajuda a fazer um mapeamento mais adequado do perfil dos usuários
+- A linguagem sem economês e mais próxima da realidade das pessoas ajuda a fazer um mapeamento mais adequado do perfil dos usuários.
 </p>
 
 #### **Execução**
 
 <p align="justify">
 - A tecnologia que desenvolvemos pode facilmente ser integrada ao aplicativo e ao site da Órama, permitindo uma implementação rápida do projeto. Todos os dados utilizados foram fornecidos pela própria Órama, o que nos leva a crer que o algoritmo funcionará bem quando for aplicado a toda a base de clientes da Órama.
-
 - Além disso, como os dados utiilizados para realizar a inferência de perfil já são respondidos obrigatoriamente por todos os usuárioa ao abrirem uma conta na Órama, acreditamos que esse é mais um fator que facilita possibilidade de uma implementação rápida da nossa solução.
 </p>
 
 #### **Informações adicionais**
 
 <p align="justify">
-- Nossa solução permite que a Órama ofereça uma melhor personalização para os investimentos de seus clientes, mesmo em contexto de informação assimétrica
-- Nossa solução é user-friendly (eliminando fricções que afastam as pessoas responder o questionário de suitability) 
+- Nossa solução permite que a Órama ofereça uma melhor personalização para os investimentos de seus clientes, mesmo em contexto de informação assimétrica.
+- Nossa solução é user-friendly (eliminando fricções que afastam as pessoas responder o questionário de suitability).
 - Nossa solução, além de poder ser usada dentro do aplicativo e do site da Órama, também permite criar **propagandas com melhores recomendações**, desde que haja alguma informação sobre o perfil demográfico do público-alvo que frequenta a plataforma na qual seja realizada a publicidade da Órama. 
 </p>
 
