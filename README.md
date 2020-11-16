@@ -15,11 +15,11 @@ Criamos uma solução digital para tonar mais amigável a experiência do client
 #### **Solução**
 
 1. O usuário abre uma conta na Órama, preenche as informações obrigatórias e pode:
-  a. Responder um questionário rápido e amigável para traçar o seu perfil de investimentos
-  b. Optar por pular o questionário (nesse caso, o algoritmo infere o perfil do cliente)
-2. Com base nas preferências respondidas ou inferidas, é criado automaticamente uma carteira de investimentos personalizada e:
-  a. o cliente pode ajustar a distribuição de produtos (percentual de renda variável, renda fixa e fundos multimercado)
-  b. o cliente pode excluir ou adicionar outros produtos à carteira (nesse caso, são sugeridos os produtos compatíveis com o perfil)
+- Responder um questionário rápido e amigável para traçar o seu perfil de investimentos;
+- Optar por pular o questionário (nesse caso, o algoritmo infere o perfil do cliente).
+2. Com base nas preferências respondidas ou inferidas, é criado automaticamente uma carteira de investimentos personalizada e o cliente pode :
+- Ajustar a distribuição de produtos (percentual de renda variável, renda fixa e fundos multimercado);
+- Excluir ou adicionar outros produtos à carteira (nesse caso, são sugeridos os produtos compatíveis com o perfil).
   
 #### **Tecnologias**
 
