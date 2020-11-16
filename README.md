@@ -1,5 +1,5 @@
 # Projeto Órama 5.0
-### Equpe Union Squad – Daniel Rocha, Mateus, Letícia Fiorito e Wally
+## Equpe Union Squad – Daniel Rocha, Mateus, Letícia Fiorito e Wally
 Desafio: "Desenvolver uma forma de apresentar os serviços e produtos de investimentos de uma forma mais amigável, simplificada e que atenda as melhores práticas de experiência do usuário".
 
 1. Video Pitch: 
