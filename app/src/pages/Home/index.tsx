@@ -31,11 +31,11 @@ const Home: React.FC = () => {
 
       <ButtonsContainer>
         <LightButton onPress={handleLogin}>
-          <ButtonTextLight>Log In</ButtonTextLight>
+          <ButtonTextLight>Abrir conta</ButtonTextLight>
         </LightButton>
 
         <DarkButton>
-          <ButtonText onPress={handleRegister}>Abrir Conta</ButtonText>
+          <ButtonText onPress={handleRegister}>Log In</ButtonText>
         </DarkButton>
       </ButtonsContainer>
     </React.Fragment>
