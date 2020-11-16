@@ -4,7 +4,7 @@ Desafio: "Desenvolver uma forma de apresentar os serviços e produtos de investi
 
 1. Video Pitch: https://youtu.be/4GhNJrRJN80
 2. Video App Mockup: 
-3. Apresentação de Slides: https://bit.ly/38LK7IE
+3. Apresentação de Slides: https://bit.ly/35x6yiA
 
 ### **Descrição**
 
